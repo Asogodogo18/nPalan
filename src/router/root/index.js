@@ -8,7 +8,7 @@ import authStack from "../auth";
 function index() {
   return (
     <Root.Navigator
-      initialRouteName="appStack"
+      initialRouteName="authStack"
       screenOptions={{ headerShown: false }}
     >
       <Root.Screen name="authStack" component={authStack} />
